@@ -4,16 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Studio Homework Project</title>
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css"/>
 </head>
 <body>
-    <header></header>
+    <header class="global-header">
         <a href="./index.html">WebStudio</a>
-        <nav>
+        <nav class="main-navigation">
             <ul>
-                <li><a href="./studio.html">Studio</a></li>
-                <li><a href="./portofolio.html">Portofolio</a></li>
-                <li><a href="./contacts.html">Contacts</a></li>
+                <li><a href="./studio.html" class="main-navigation-studio">Studio</a></li>
+                <li><a href="./portofolio.html" class="main-navigation-portofolio">Portofolio</a></li>
+                <li><a href="./contacts.html" class="main-navigation-contacts">Contacts</a></li>
             </ul>
         </nav>
         <a href="info@devstudio.com">info@devstudio.com</a>
@@ -22,9 +26,9 @@
 
     <main>
         <!--Top section-->
-        <section>
-            <h1>EFFECTIVE SOLUTIONS FOR YOUR BUSINESS</h1>
-            <button>Request our service</button>
+        <section class="top-section">
+            <h1 id="title">EFFECTIVE SOLUTIONS FOR YOUR BUSINESS</h1>
+            <button class="button">Request our service</button>
         </section>
         <!--Middle Section-->
         <section>

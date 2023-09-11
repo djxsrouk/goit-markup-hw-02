@@ -1,0 +1,53 @@
+:root {
+    --active-link: #212121;
+    --inactive-link:#212121;
+}
+
+.global-header {
+    background-color: #FFFFFF;
+}
+
+.global-header .main-navigation a:link,
+.global-header .main-navigation a:visited {
+    color: var(--active-link)
+}
+
+/* Top section */
+.top-section {
+    background-color: #2f303a;
+    width: 1600px;
+    height: 600px;
+}
+#title {
+    color: #FFFFFF;
+    font-weight: 900;
+    font-size: 44px;
+    text-align: center;
+}
+
+.button {
+    font-family: Roboto;
+    color:#ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 6%;
+    border-radius: 4px;
+    background: #2196f3;
+    width: 200px;
+    height: 50px;
+    flex-shrink: 0;
+    text-align: center;
+
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+#current {
+    color: var(--active-link);
+}
+
+
