@@ -1,22 +1,54 @@
 :root {
-    --active-link: #212121;
-    --inactive-link:#212121;
+    --nav-link: #212121;
+    --info-top: #757575;
+}
+a:link, a:visited, a:active, a:hover {
+    text-decoration: none;
+}
+/* Logo and Header */
+.nav-link {
+    color: var(--nav-link);
+    border: none;
+}
+
+.nav-link:hover, .nav-link:focus {
+    color: #2196f3;
+}
+.logo {
+    font-family: Raleway;
+    font-size: 26px;
+}
+.web {
+    color:#2196f3;
+    border: none;
+}
+.studio {
+    color: #212121;
+    border: none;
 }
 
 .global-header {
     background-color: #FFFFFF;
 }
 
-.global-header .main-navigation a:link,
-.global-header .main-navigation a:visited {
-    color: var(--active-link)
+.info-top {
+    color:--info-top;
+    border: none;
+    font-family: Roboto;
+    font-size: px;
 }
+
+.info-top:hover, .info-top:focus {
+    color:#2196f3;
+}
+/* Footer */
+
+
 
 /* Top section */
 .top-section {
     background-color: #2f303a;
     width: 1600px;
-    height: 600px;
 }
 #title {
     color: #FFFFFF;
@@ -38,16 +70,13 @@
     height: 50px;
     flex-shrink: 0;
     text-align: center;
+    cursor: pointer;
 
 }
-
 
 ul {
     list-style-type: none;
 }
 
-#current {
-    color: var(--active-link);
-}
 
 
