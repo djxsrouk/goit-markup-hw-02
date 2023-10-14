@@ -1,6 +1,5 @@
 :root {
     --nav-link: #212121;
-    --info-top: #757575;
 }
 a:link, a:visited, a:active, a:hover {
     text-decoration: none;
@@ -31,19 +30,15 @@ a:link, a:visited, a:active, a:hover {
     background-color: #FFFFFF;
 }
 
-.info-top {
-    color:--info-top;
-    border: none;
-    font-family: Roboto;
-    font-size: px;
+ul {
+    list-style-type: none;
 }
 
-.info-top:hover, .info-top:focus {
-    color:#2196f3;
+body {
+    font-family: Roboto, sans-serif;
+    color:var(--nav-link);
+    
 }
-/* Footer */
-
-
 
 /* Top section */
 .top-section {
@@ -54,6 +49,7 @@ a:link, a:visited, a:active, a:hover {
     color: #FFFFFF;
     font-weight: 900;
     font-size: 44px;
+    line-height: 60px;
     text-align: center;
 }
 
@@ -71,12 +67,10 @@ a:link, a:visited, a:active, a:hover {
     flex-shrink: 0;
     text-align: center;
     cursor: pointer;
-
 }
-
-ul {
-    list-style-type: none;
-}
+/* Middle Section */
 
 
 
+
+/* Footer */
