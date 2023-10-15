@@ -13,6 +13,14 @@ a:link, a:visited, a:active, a:hover {
     line-height: 16.41px;
 }
 
+.nav-link-current {
+    color: #2196F3;
+    border: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16.41px;
+}
+
 .nav-link:hover, .nav-link:focus {
     color: #2196f3;
 }
@@ -79,6 +87,7 @@ body {
     font-size: 16px;
     font-weight: 700;
     line-height: 30px;
+    font-family: inherit;
     letter-spacing: 6%;
     border-radius: 0px;
     border: 0px;
@@ -90,6 +99,9 @@ body {
     cursor: pointer;
 }
 
+.button:hover, .button:focus {
+    background: #188CE8;
+}
 /* Middle Section */
 .middle-section ul li h3 {
     font-size: 14px;
@@ -110,6 +122,9 @@ body {
     text-align: center;
 }
 /* Our team Section */
+.our-team-section {
+    background: #F5F4FA;
+}
 .our-team-section h2 {
     font-size: 36px;
     line-height: 42.19px;
@@ -149,6 +164,7 @@ footer {
     background: #f5f4fa;
     font-weight: 500;
     font-size: 16px;
+    font-family: inherit;
     line-height: 26px;
     border-radius: 0px;
     border: 0px;
@@ -156,7 +172,19 @@ footer {
     text-align: center;
     cursor: pointer;
 }
-
+.button-por-active {
+    background: #2196F3;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    border-radius: 0px;
+    font-family: inherit;
+    border: 0px;
+    flex-shrink: 0;
+    text-align: center;
+    cursor: pointer;
+}
 .button-por:hover,
 .button-por:focus {
     background: #2196F3;
