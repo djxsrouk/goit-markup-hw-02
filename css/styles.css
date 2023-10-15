@@ -8,6 +8,9 @@ a:link, a:visited, a:active, a:hover {
 .nav-link {
     color: var(--nav-link);
     border: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16.41px;
 }
 
 .nav-link:hover, .nav-link:focus {
@@ -22,7 +25,23 @@ a:link, a:visited, a:active, a:hover {
     border: none;
 }
 .studio {
-    color: #212121;
+    color: var(--nav-link);
+    border: none;
+}
+
+.info-link {
+    color:#757575;
+    border: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16.41px;
+}
+.info-link:hover, .info-link:focus {
+    color: #2196f3;
+}
+
+.studio-bottom {
+    color: #fff;
     border: none;
 }
 
@@ -36,9 +55,10 @@ ul {
 
 body {
     font-family: Roboto, sans-serif;
-    color:var(--nav-link);
-    
+    font-weight: 700;
+    color: var(--nav-link);
 }
+
 
 /* Top section */
 .top-section {
@@ -60,7 +80,8 @@ body {
     font-weight: 700;
     line-height: 30px;
     letter-spacing: 6%;
-    border-radius: 4px;
+    border-radius: 0px;
+    border: 0px;
     background: #2196f3;
     width: 200px;
     height: 50px;
@@ -68,9 +89,87 @@ body {
     text-align: center;
     cursor: pointer;
 }
+
 /* Middle Section */
+.middle-section ul li h3 {
+    font-size: 14px;
+    line-height: 16.41px;
+    text-transform: capitalize;
+}
+.middle-section ul li p {
+    color: #757575;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+    
+/* What we do section*/
+.what-we-do-section h2 {
+    font-size: 36px;
+    line-height: 42.19px;
+    text-align: center;
+}
+/* Our team Section */
+.our-team-section h2 {
+    font-size: 36px;
+    line-height: 42.19px;
+    text-align: center;
+}
+.our-team-section ul li h4 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18.75px;
+    text-align: center;
+}
 
-
-
-
+.our-team-section ul li p {
+    font-weight: 400;
+    color: #757575;
+    font-size: 16px;
+    line-height: 18.75px;
+    text-align: center;
+}
 /* Footer */
+footer {
+    background-color: #2F303A;
+}
+
+.footer-info address p {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.41px;
+    opacity: 0.6;
+}
+
+
+/* PORTOFOLIO */
+
+.button-por {
+    background: #f5f4fa;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    border-radius: 0px;
+    border: 0px;
+    flex-shrink: 0;
+    text-align: center;
+    cursor: pointer;
+}
+
+.button-por:hover,
+.button-por:focus {
+    background: #2196F3;
+}
+
+.portofolio-section ul li h4 {
+    font-size: 18px;
+    line-height: 36px;
+}
+
+.portofolio-section ul li p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+    line-height: 30px;
+}
